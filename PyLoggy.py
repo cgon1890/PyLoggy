@@ -148,7 +148,7 @@ hook = pyHook.HookManager()
 
 hook.KeyDown = OnKeyboardEvent
 
-hook.MouseAllButtonsDown = OnMouseEvent
+hook.MouseAllButtonsDown = OnMouseEvent #This line on is not defined....
 
 hook.HookKeyboard()
 
